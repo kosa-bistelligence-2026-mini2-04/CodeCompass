@@ -4,28 +4,28 @@
 
 ## 전체 비교표
 
-| 레퍼런스 폴더 | 원본 GitHub | 프론트 참고도 | 백엔드/RAG 참고도 | 눈여겨볼 특징 |
+| 레퍼런스 이름 | 원본 GitHub | 프론트 참고도 | 백엔드/RAG 참고도 | 눈여겨볼 특징 |
 | --- | --- | --- | --- | --- |
-| `projects/403errors__repomind` | https://github.com/403errors/repomind | 매우 높음 | 매우 높음 | 가장 제품형에 가까움. 랜딩, repo search, chat, file preview, architecture map, security scan, streaming progress 참고 |
-| `projects/CraftFossLabs__chatrepos.ai` | https://github.com/CraftFossLabs/chatrepos.ai | 높음 | 중 | ChatGPT형 대화 UI, Next.js, shadcn, Zustand, Mermaid 사용. 간결한 repo analyzer UX 참고 |
-| `projects/chroma-core__github-sync-demo` | https://github.com/chroma-core/github-sync-demo | 높음 | 높음 | Next.js + Chroma + AI SDK. GitHub repo sync, ChromaDB 연동, chat UX 참고 |
-| `projects/MatheusAFD__repo-lens` | https://github.com/MatheusAFD/repo-lens | 높음 | 중상 | 모노레포, Turbo, Playwright e2e, packages/ui, NestJS API. 제품 운영 구조 참고 |
-| `projects/CronusL-1141__repo-insight` | https://github.com/CronusL-1141/repo-insight | 중상 | 매우 높음 | 4-agent 병렬 분석, WebSocket progress, SQLite history, ECharts heatmap, guardrail, timeout fallback |
-| `projects/HarishChandran3304__TTG` | https://github.com/HarishChandran3304/TTG | 매우 높음 | 중상 | 우리 아이디어와 가장 유사. FastAPI + React/Vite + Gemini, GitHub URL 기반 repo chat |
-| `projects/Manas2412__CodeBase-Q-A-with-RAG` | https://github.com/Manas2412/CodeBase-Q-A-with-RAG | 중 | 매우 높음 | clone -> tree-sitter AST chunking -> Voyage embedding -> pgvector -> HyDE -> rerank -> Ollama SSE streaming |
-| `projects/Neverdecel__CodeRAG` | https://github.com/Neverdecel/CodeRAG | 낮음~중 | 매우 높음 | 코드베이스 RAG 라이브러리 구조. chunking, retrieval, sqlite store, vector index, CLI/API/Streamlit surface 분리 |
-| `projects/amrgaberM__CodeBase-Intelligence` | https://github.com/amrgaberM/CodeBase-Intelligence | 중 | 매우 높음 | AST parser, dependency graph, BM25 + vector hybrid retrieval, reranker, query expander, evaluator |
-| `projects/wende__cicada` | https://github.com/wende/cicada | 낮음 | 매우 높음 | AST-level indexing, call-site tracking, semantic search, PR attribution, 17+ 언어 지원 |
-| `projects/jurasofish__mcpunk` | https://github.com/jurasofish/mcpunk | 낮음 | 높음 | embedding 없이 logical chunk + search tool로 코드베이스를 탐색하는 방식 |
-| `projects/kvnpetit__structured-repo-context-mcp` | https://github.com/kvnpetit/structured-repo-context-mcp | 낮음 | 높음 | MCP 서버, tree-sitter, LanceDB, Ollama embedding, CLI/server/tool 분리 |
-| `projects/probelabs__docs-mcp` | https://github.com/probelabs/docs-mcp | 낮음 | 중상 | Git repo/docs를 MCP 검색 서버로 만드는 구조. tar.gz 다운로드, dynamic config, auto update 참고 |
-| `projects/Thibault-Knobloch__codebase-intelligence` | https://github.com/Thibault-Knobloch/codebase-intelligence | 낮음 | 중상 | CLI 중심 codebase indexing/querying. fetch/refinement/vector_db/agent 구조가 단순해 MVP 참고용 |
-| `projects/mehmoodosman__codebase-rag` | https://github.com/mehmoodosman/codebase-rag | 중 | 중 | Streamlit + Pinecone + HuggingFace embedding + Groq. 최소 RAG 데모 구조 참고 |
-| `projects/danielefavi__ai-codebase-assistant` | https://github.com/danielefavi/ai-codebase-assistant | 낮음~중 | 중 | LangChain + Chroma + Ollama 기반 codebase assistant. local LLM/RAG 구조 참고 |
-| `projects/aniketkarne__AI-Powered-Github-Repo-Analyzer` | https://github.com/aniketkarne/AI-Powered-Github-Repo-Analyzer | 중 | 중 | FastAPI + React + OpenAI. GitHub profile/repo metrics, README quality, chart UI |
-| `projects/janwilmake__chat-for-github` | https://github.com/janwilmake/chat-for-github | 낮음 | 중상 | Cloudflare Worker 단일 파일 구조. 여러 repo chat, AI file read/tool execution 아이디어 참고 |
-| `projects/vstorm-co__full-stack-ai-agent-template` | https://github.com/vstorm-co/full-stack-ai-agent-template | 높음 | 높음 | FastAPI + Next.js + RAG + streaming + auth + Celery/Docker/K8s 템플릿 |
-| `projects/google-gemini__gemini-fullstack-langgraph-quickstart` | https://github.com/google-gemini/gemini-fullstack-langgraph-quickstart | 중상 | 높음 | React + LangGraph/FastAPI agent 흐름. 검색, reflection, citation 생성 패턴 참고 |
+| `403errors/repomind` | https://github.com/403errors/repomind | 매우 높음 | 매우 높음 | 가장 제품형에 가까움. 랜딩, repo search, chat, file preview, architecture map, security scan, streaming progress 참고 |
+| `CraftFossLabs/chatrepos.ai` | https://github.com/CraftFossLabs/chatrepos.ai | 높음 | 중 | ChatGPT형 대화 UI, Next.js, shadcn, Zustand, Mermaid 사용. 간결한 repo analyzer UX 참고 |
+| `chroma-core/github-sync-demo` | https://github.com/chroma-core/github-sync-demo | 높음 | 높음 | Next.js + Chroma + AI SDK. GitHub repo sync, ChromaDB 연동, chat UX 참고 |
+| `MatheusAFD/repo-lens` | https://github.com/MatheusAFD/repo-lens | 높음 | 중상 | 모노레포, Turbo, Playwright e2e, packages/ui, NestJS API. 제품 운영 구조 참고 |
+| `CronusL-1141/repo-insight` | https://github.com/CronusL-1141/repo-insight | 중상 | 매우 높음 | 4-agent 병렬 분석, WebSocket progress, SQLite history, ECharts heatmap, guardrail, timeout fallback |
+| `HarishChandran3304/TTG` | https://github.com/HarishChandran3304/TTG | 매우 높음 | 중상 | 우리 아이디어와 가장 유사. FastAPI + React/Vite + Gemini, GitHub URL 기반 repo chat |
+| `Manas2412/CodeBase-Q-A-with-RAG` | https://github.com/Manas2412/CodeBase-Q-A-with-RAG | 중 | 매우 높음 | clone -> tree-sitter AST chunking -> Voyage embedding -> pgvector -> HyDE -> rerank -> Ollama SSE streaming |
+| `Neverdecel/CodeRAG` | https://github.com/Neverdecel/CodeRAG | 낮음~중 | 매우 높음 | 코드베이스 RAG 라이브러리 구조. chunking, retrieval, sqlite store, vector index, CLI/API/Streamlit surface 분리 |
+| `amrgaberM/CodeBase-Intelligence` | https://github.com/amrgaberM/CodeBase-Intelligence | 중 | 매우 높음 | AST parser, dependency graph, BM25 + vector hybrid retrieval, reranker, query expander, evaluator |
+| `wende/cicada` | https://github.com/wende/cicada | 낮음 | 매우 높음 | AST-level indexing, call-site tracking, semantic search, PR attribution, 17+ 언어 지원 |
+| `jurasofish/mcpunk` | https://github.com/jurasofish/mcpunk | 낮음 | 높음 | embedding 없이 logical chunk + search tool로 코드베이스를 탐색하는 방식 |
+| `kvnpetit/structured-repo-context-mcp` | https://github.com/kvnpetit/structured-repo-context-mcp | 낮음 | 높음 | MCP 서버, tree-sitter, LanceDB, Ollama embedding, CLI/server/tool 분리 |
+| `probelabs/docs-mcp` | https://github.com/probelabs/docs-mcp | 낮음 | 중상 | Git repo/docs를 MCP 검색 서버로 만드는 구조. tar.gz 다운로드, dynamic config, auto update 참고 |
+| `Thibault-Knobloch/codebase-intelligence` | https://github.com/Thibault-Knobloch/codebase-intelligence | 낮음 | 중상 | CLI 중심 codebase indexing/querying. fetch/refinement/vector_db/agent 구조가 단순해 MVP 참고용 |
+| `mehmoodosman/codebase-rag` | https://github.com/mehmoodosman/codebase-rag | 중 | 중 | Streamlit + Pinecone + HuggingFace embedding + Groq. 최소 RAG 데모 구조 참고 |
+| `danielefavi/ai-codebase-assistant` | https://github.com/danielefavi/ai-codebase-assistant | 낮음~중 | 중 | LangChain + Chroma + Ollama 기반 codebase assistant. local LLM/RAG 구조 참고 |
+| `aniketkarne/AI-Powered-Github-Repo-Analyzer` | https://github.com/aniketkarne/AI-Powered-Github-Repo-Analyzer | 중 | 중 | FastAPI + React + OpenAI. GitHub profile/repo metrics, README quality, chart UI |
+| `janwilmake/chat-for-github` | https://github.com/janwilmake/chat-for-github | 낮음 | 중상 | Cloudflare Worker 단일 파일 구조. 여러 repo chat, AI file read/tool execution 아이디어 참고 |
+| `vstorm-co/full-stack-ai-agent-template` | https://github.com/vstorm-co/full-stack-ai-agent-template | 높음 | 높음 | FastAPI + Next.js + RAG + streaming + auth + Celery/Docker/K8s 템플릿 |
+| `google-gemini/gemini-fullstack-langgraph-quickstart` | https://github.com/google-gemini/gemini-fullstack-langgraph-quickstart | 중상 | 높음 | React + LangGraph/FastAPI agent 흐름. 검색, reflection, citation 생성 패턴 참고 |
 
 ## 프론트엔드 디자인 관점 추천
 
@@ -92,7 +92,7 @@ priority: README, package config, backend entrypoint, routers, models, services,
 
 ## 레퍼런스 사용 시 주의
 
-- 이 폴더의 프로젝트들은 참고용 스냅샷입니다.
+- 이 문서의 프로젝트들은 참고용 외부 레퍼런스입니다.
 - 각 프로젝트의 라이선스와 원본 README를 확인한 뒤 필요한 아이디어만 설계에 반영합니다.
 - 소스 코드를 그대로 복사해 제품 코드에 붙이지 않습니다.
 - 실제 API key, `.env`, secret, token은 포함하지 않습니다.

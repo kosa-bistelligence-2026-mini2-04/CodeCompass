@@ -7,12 +7,7 @@ CodeCompass 2차 프로젝트 주제인 "AI 코드베이스 온보딩 도우미"
 ```text
 references/codebase-onboarding/
 ├── README.md
-├── REFERENCE_COMPARISON.md
-└── projects/
-    ├── 403errors__repomind/
-    ├── HarishChandran3304__TTG/
-    ├── Manas2412__CodeBase-Q-A-with-RAG/
-    └── ...
+└── REFERENCE_COMPARISON.md
 ```
 
 ## 스냅샷 원칙
@@ -24,15 +19,15 @@ references/codebase-onboarding/
 
 ## 먼저 볼 순서
 
-1. `projects/403errors__repomind`
+1. `403errors/repomind`
    - 제품형 UI, repo search, chat, architecture map, security scan, streaming progress 참고
-2. `projects/HarishChandran3304__TTG`
+2. `HarishChandran3304/TTG`
    - GitHub URL 입력 후 repo chat으로 이어지는 가장 직접적인 풀스택 참고
-3. `projects/Manas2412__CodeBase-Q-A-with-RAG`
+3. `Manas2412/CodeBase-Q-A-with-RAG`
    - tree-sitter chunking, pgvector, HyDE, reranking, SSE streaming 등 RAG 백엔드 참고
-4. `projects/Neverdecel__CodeRAG`
+4. `Neverdecel/CodeRAG`
    - 코드베이스 RAG 라이브러리 구조, chunking/retrieval/store/API 분리 참고
-5. `projects/CronusL-1141__repo-insight`
+5. `CronusL-1141/repo-insight`
    - multi-agent 분석, WebSocket progress, guardrail, timeout fallback 참고
 
 자세한 비교표는 `REFERENCE_COMPARISON.md`를 확인하세요.
